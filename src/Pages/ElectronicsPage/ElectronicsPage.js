@@ -1,7 +1,5 @@
 import Electronics from "../../Components/Electronics/Electronics";
-import Goods from "../../Conatiner/goods/goods";
 import Mask from "../../Assets/img/bitm.jpg";
-import Mask3 from "../../Assets/img/bitm1.jpg";
 import Mask4 from "../../Assets/img/bitm2.jpg";
 import Mask5 from "../../Assets/img/bitm3.jpg";
 import Mask6 from "../../Assets/img/bitm4.jpg";
@@ -14,7 +12,6 @@ import office from "../../Assets/img/office.jpg";
 import kokat from "../../Assets/img/kokat.jpg";
 import car from "../../Assets/img/Car.jpg";
 import search from "../../Assets/img/search.svg";
-import location from "../../Assets/img/pin.svg";
 import uy from "../../Assets/img/uy.jpg";
 import sport from "../../Assets/img/sport.jpg";
 import uch from "../../Assets/img/uch.jpg";
@@ -38,7 +35,7 @@ const ElectronicsPage = () => {
   }, [state1])
   function slider() {
     setState1(state1-1)
-    if (state1 == 0) {
+    if (state1 === 0) {
       setState1(4)
     }
   }
@@ -150,28 +147,28 @@ const ElectronicsPage = () => {
             <>{item}</>
           ))
         )
-        break;
+
       case "top":
         return (
           arr1.map(item => (
             <> {item}</>
           ))
         )
-        break;
+
       case "simple":
         return (
           arr.filter(a => a.props.class1 ? "" : a).map(item => (
             <> {item}</>
         ))
         )
-        break
+
       default:
         return (
           arr.map((item) => (
             <>{item}</>
           ))
         )
-        break;
+     
     }
 
   }

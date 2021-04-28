@@ -30,9 +30,7 @@ const Update = () => {
   useEffect(() => {
     document.querySelector(".footer").style.display = "none"
   },[])
-  function addClass(e) {
 
-  }
   useEffect(() => {
     document.documentElement.style.setProperty("--index", index1)
     console.log(index1);
@@ -246,7 +244,7 @@ const Update = () => {
 
             <div className="house-case-div">
               <label className="contract-label" >
-                <input className="contract-label" className="checkbox-input" type="checkbox" />
+                <input  className="checkbox-input" type="checkbox"/>
                 <span className="checkbox-span"></span>
                 <span>Авторский проектод </span>
               </label>

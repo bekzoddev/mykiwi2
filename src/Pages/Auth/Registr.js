@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import { Link, Redirect, useHistory } from "react-router-dom";
+import { Link,  useHistory } from "react-router-dom";
 import art from "../../Assets/img/art.jpg";
-import instanse from "../../Services/https/index";
+
 import "./main.css";
 const Registr = () => {
   const [state1, setState1] = useState(false)
@@ -31,7 +31,7 @@ useEffect(() => {
     email: inputRef.current.value
   })
   window.localStorage.setItem("object", JSON.stringify(object))
-  console.log(window.localStorage.getItem("object"));
+  
 },[state1])
 function some2(e) {
   e.preventDefault()

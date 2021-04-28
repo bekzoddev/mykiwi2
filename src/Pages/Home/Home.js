@@ -24,7 +24,7 @@ const Home = () => {
   const [index1, setIndex1] = useState(0)
   const [class1, setClass1] = useState(false)
   const [open, setOpen] = useState("")
-  const {adding1,setAdd} = Docontext()
+  const {setAdd} = Docontext()
 
   function openDropdown(e) {
     if (e.target.matches(".dropdown-link")) {
@@ -68,7 +68,7 @@ const Home = () => {
 
   function remove2() {
     setIndex(index - 1)
-    if (index == -4) {
+    if (index === -4) {
       setIndex(0)
     }
   }
@@ -167,7 +167,7 @@ const Home = () => {
             </div>
           </>
         )
-        break;
+      
     }
   }
 

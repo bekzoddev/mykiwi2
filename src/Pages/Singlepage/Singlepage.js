@@ -20,7 +20,7 @@ const Singlepage = () => {
   }, [index])
   function remove2() {
     setIndex(index - 1)
-    if (index == -4) {
+    if (index === -4) {
       setIndex(0)
     }
 

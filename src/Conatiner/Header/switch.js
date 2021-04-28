@@ -29,7 +29,7 @@ function dropdown(a) {
         <Link to="./computer" className="dropdown-link special">Другое</Link>
       </div>
       </>)
-      break;
+
     default: return (
       <>
         <div className="dropdown-div">
@@ -63,7 +63,7 @@ function dropdown(a) {
       </>
     )
 
-      break;
+   
   }
 }
 export default dropdown;

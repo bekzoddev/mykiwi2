@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import photo from "../../Assets/img/photo.jpg";
 import { useEffect } from "react";
 const Profile = () => {
-  const local = JSON.parse(localStorage.getItem("object"))
+
   useEffect(() => {
     document.querySelector(".footer").style.display = "none"
   },[])
@@ -337,8 +337,8 @@ const Profile = () => {
           </Link>
           <p className="footer-top-text">Веб сайт бесплатных обьявлений | на базеимеется 234 944 999   шт обяления</p>
           <div className="market">
-            <a href="#"> <img src={apple} alt="img" /></a>
-            <a href="#"><img src={google} alt="img" /></a>
+            <a href="https://www.kun.uz"> <img src={apple} alt="img" /></a>
+            <a href="https://www.kun.uz"><img src={google} alt="img" /></a>
           </div>
         </div>
       </div>

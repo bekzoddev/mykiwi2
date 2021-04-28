@@ -8,24 +8,13 @@ import  "./main.css";
 import { useState,useEffect } from "react";
 const Slider = () => {
   const [index, setIndex] = useState(0)
-  function add() {
-    setIndex(index + 1)
-    if (index == 0) {
-      setIndex(-4)
-    }
-  }
+
   useEffect(() => {
     document.documentElement.style.setProperty("--index", index)
     console.log(index);
   }, [index])
 
-  function remove() {
-    setIndex(index - 1)
-    if (index == -4) {
-      setIndex(0)
-    }
 
-  }
 
   return (
    <>

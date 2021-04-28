@@ -9,31 +9,10 @@ import {Docontext} from "../../Context";
 const Header = () => {
   const [index1, setIndex1] = useState(0)
   const [class1,setClass1] = useState(false)
-  const [open,setOpen] = useState("")
+
   const {adding1} = Docontext()
-  function add() {
-    setIndex1(index1 + 1)
-    if (index1 === 5) {
-      setIndex1(0)
-    }
+  
 
-  }
-  function openDropdown(e) {
-    if (e.target.matches(".dropdown-link")) {
-      setOpen("computer")
-      if (e.target.matches(".special")) {
-        setClass1(!class1)
-        setOpen("")
-    }
-
-  }
-  }
-  function minus() {
-    setIndex1(index1 - 1)
-    if (index1 < 0) {
-      setIndex1(5)
-    }
-  }
 
   useEffect(() => {
     document.documentElement.style.setProperty("--index", index1)

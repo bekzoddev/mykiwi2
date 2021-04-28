@@ -1,6 +1,5 @@
 import Goods from "../../Conatiner/goods/goods";
 import Mask from "../../Assets/img/bitm.jpg";
-import Mask3 from "../../Assets/img/bitm1.jpg";
 import Mask4 from "../../Assets/img/bitm2.jpg";
 import Mask5 from "../../Assets/img/bitm3.jpg";
 import Mask6 from "../../Assets/img/bitm4.jpg";

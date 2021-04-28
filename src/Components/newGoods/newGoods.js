@@ -1,5 +1,4 @@
-import Singlepage from "../../Pages/Singlepage/Singlepage";
-import { Link, useHistory } from "react-router-dom";
+
 const Newgoods = ({img,title,time,price}) => {
 
   return (

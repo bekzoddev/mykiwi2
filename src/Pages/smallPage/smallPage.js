@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import first from "../../Assets/img/first.jpg";
 import second from "../../Assets/img/second.jpg";
 import third from "../../Assets/img/third.jpg";
@@ -44,7 +44,7 @@ const smallpage = (a) => {
          </div>
        </div>
      )
-     break;
+
     case "second":
     return (
       <div className="small-link">
@@ -82,7 +82,7 @@ const smallpage = (a) => {
         </div>
       </div>
     )
-    break;
+
    default:
      return (
        <div className="small-link">
@@ -120,7 +120,7 @@ const smallpage = (a) => {
          </div>
        </div>
      )
-     break;
+   
  }
 }
 export default smallpage;
