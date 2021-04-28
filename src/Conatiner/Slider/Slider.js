@@ -7,11 +7,11 @@ import slider5 from "../../Assets/img/bitm1.jpg";
 import  "./main.css";
 import { useState,useEffect } from "react";
 const Slider = () => {
-  const [index, setIndex] = useState(0)
+  const [index] = useState(0)
 
   useEffect(() => {
     document.documentElement.style.setProperty("--index", index)
-    console.log(index);
+   
   }, [index])
 
 

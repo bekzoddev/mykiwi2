@@ -31,7 +31,7 @@ useEffect(() => {
     email: inputRef.current.value
   })
   window.localStorage.setItem("object", JSON.stringify(object))
-  
+
 },[state1])
 function some2(e) {
   e.preventDefault()

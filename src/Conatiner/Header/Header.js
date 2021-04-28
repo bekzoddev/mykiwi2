@@ -7,11 +7,11 @@ import { useEffect, useState } from "react";
 import {Docontext} from "../../Context";
 
 const Header = () => {
-  const [index1, setIndex1] = useState(0)
-  const [class1,setClass1] = useState(false)
+  const [index1] = useState(0)
+
 
   const {adding1} = Docontext()
-  
+
 
 
   useEffect(() => {
