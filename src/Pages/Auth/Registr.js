@@ -25,14 +25,7 @@ function some1(e) {
   })
 
 }
-useEffect(() => {
-  setObject({
-    name: inputRef1.current.value,
-    email: inputRef.current.value
-  })
-  window.localStorage.setItem("object", object)
 
-},[state1])
 function some2(e) {
   e.preventDefault()
   history.push("/login")
