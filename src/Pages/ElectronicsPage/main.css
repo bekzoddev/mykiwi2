@@ -227,7 +227,7 @@
 }
 
 .input-range-div p.percent.child1 {
-  transform: translate(calc(var(--main1)*-0.7px));
+  transform: translate(calc(var(--main1)*(-0.7px)));
   margin-left: 480px;
   font-weight: bold;
   transition: transform linear 0.2s;
@@ -367,7 +367,7 @@
   width: 357px !important;
   padding: 30px;
   margin-left: 30px;
-  transform: translate(calc(var(--margin1)*-40%));
+  transform: translate(calc(var(--margin1)*(-40%)));
   transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   background: #FFFFFF;
   border: 1px solid rgba(120, 121, 147, 0.243461);

@@ -51,7 +51,7 @@ const Header = () => {
           <div className="nav-left">
             {
               adding1 ? (
-                 <><div className="nav-left-div">
+                 <><div className="nav-left-div first-div">
                    <Link className="header-link" to="/update"> Объявления</Link>
                    <Link className="header-link" to="/"> Магазины </Link>
                    <Link className="header-link" to="/"> Для бизнеса </Link>
