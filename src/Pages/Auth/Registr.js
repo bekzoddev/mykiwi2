@@ -30,7 +30,7 @@ useEffect(() => {
     name: inputRef1.current.value,
     email: inputRef.current.value
   })
-  window.localStorage.setItem("object", JSON.stringify(object))
+  window.localStorage.setItem("object", object)
 
 },[state1])
 function some2(e) {
