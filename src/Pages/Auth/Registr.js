@@ -9,7 +9,7 @@ const Registr = () => {
   const inputRef1 = useRef()
   const [state, setState] = useState(false)
   const history = useHistory()
-  const [object,setObject] = useState(false)
+ 
 
   function some(e) {
     setState(true)
@@ -19,10 +19,7 @@ function some1(e) {
   e.preventDefault()
   e.target.classList.remove("open")
   setState1(true)
-  setObject({
-    name: inputRef1.current.value,
-    email: document.querySelector(".email1").value
-  })
+
 
 }
 
