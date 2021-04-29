@@ -51,7 +51,7 @@ const Header = () => {
                   }
               </>
               ) : (
-              <><div className="nav-left-div">
+              <><div className="nav-left-div first-div">
                   <p>Рус</p><span> | </span>
                   <p>O’z</p>
                   </div>
