@@ -22,7 +22,9 @@ const Header = () => {
     <div className="wrapper">
      <div className="wrapper-inner">
         <div className="container nav">
-          <Link to="/" className="nav-link">
+          <Link to="/" className="nav-link" onClick={() => {
+            document.querySelector(".footer").style.display = "block"
+          }}>
             <img className="logo-img" src={logo} alt="logo" />
 
           </Link>

@@ -12,7 +12,11 @@ import { useEffect } from "react";
 const Profile = () => {
 
   useEffect(() => {
-    document.querySelector(".footer").style.display = "none"
+   if (document.querySelector(".big-wrapper")) {
+     document.querySelector(".footer").style.display = "none"
+   }else {
+       document.querySelector(".footer").style.display = "block"
+   }
   },[])
   return (
    <>
